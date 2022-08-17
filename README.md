@@ -1,1 +1,1 @@
-# Challenge-10, Mission to Mars
+# Challenge-10: Mission to Mars
