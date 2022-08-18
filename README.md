@@ -1,1 +1,2 @@
 # Challenge-10: Mission to Mars
+The objetive of this project was to further develop a web app that provides certain information on Mars, such as pictures, facts and recent news. This project involves the interface of multiple programs and languages, such as html, Python, and MongoDB. The individual components are quite simple, though the interfaces of all of these was tricky to navigate at times. Python is used to set up a web page and scrape the data, MongoDB is used to store the scraped data, and the html file is used to display the collected data and images on a web page.
