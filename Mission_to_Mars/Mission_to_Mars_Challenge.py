@@ -137,13 +137,11 @@ hemisphere_image_urls = []
 html = browser.html
 img_soup = soup(html, 'html.parser')
 
-for x in range(4):
-    browser.find_by_css('div[class="description"] a')[x].click()
+for h in range(4):
+    browser.find_by_css('div[class="description"] a')[h].click()
     html = browser.html
     img_soup = soup(html, 'html.parser')
-    
-    title = img_soup.find('h2', class_='title').get_text()
-    
+    title = img_soup.find('h2', class_='title').get_text()    
     link = img_soup.find(lambda tag:tag.name=="a" and "Sample" in tag.text)
     img_url = link.get('href')
     
